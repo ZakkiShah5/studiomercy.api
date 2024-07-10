@@ -5,6 +5,7 @@
     "mongoose": "^8.4.4"
   },
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   }
 }
