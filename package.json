@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "npm run dev",
-    "build": "npm start"
+    "build": "npm install",
+    "start": "npm start"
   }
 }
