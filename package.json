@@ -4,9 +4,9 @@
   "description": "Your app description",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",  // Use nodemon for development
-    "build": "npm install",      // Install dependencies (not typically needed for Node.js apps)
-    "start": "node server.js"    // Start command for production
+    "dev": "nodemon server.js",  
+    "build": "npm install",      
+    "start": "node server.js"    
   },
   "dependencies": {
     "dotenv": "^16.4.5",
@@ -14,7 +14,7 @@
     "mongoose": "^8.4.4"
   },
   "engines": {
-    "node": "14.x",   // Ensure Node.js version compatibility
+    "node": "14.x",   
     "npm": "6.x"
   }
 }
