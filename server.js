@@ -36,5 +36,5 @@ mongoose.connect('mongodb+srv://studioMercy:51214722@studiomercy.ghbxl4m.mongodb
     });
   })
   .catch((err) => {
-    console.error('MongoDB connection error:', err);
+    console.error('MongoDB connection error lol:', err);
   });
