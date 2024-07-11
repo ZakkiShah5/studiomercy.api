@@ -1,27 +1,11 @@
 {
-  "name": "studiomercy",
-  "version": "1.0.0",
-  "description": "Your app description",
-  "main": "server.js",
-  "scripts": {
-    "dev": "nodemon server.js",  
-    "build": "npm install",      
-    "start": "node server.js"    
-  },
   "dependencies": {
-    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.4.4"
   },
-<<<<<<< HEAD
   "scripts": {
     "dev": "nodemon server.js",
     "start": "npm run dev"
-=======
-  "engines": {
-    "node": "14.x",   
-    "npm": "6.x"
->>>>>>> faed83597fc5c6a7daa3f3643ce33e84302d1f4c
   }
 }
