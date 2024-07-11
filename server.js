@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 app.use('/api/blogs', allBlogs);
 
 // Connect to DB
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect('mongodb+srv://studioMercy:51214722@studiomercy.ghbxl4m.mongodb.net/?retryWrites=true&w=majority&appName=StudioMercy')
     .then(() => {
         // Listen for requests
         const port = process.env.PORT || 3000;
