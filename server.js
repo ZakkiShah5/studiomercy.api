@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://jade-fairy-67dd86.netlify.app', // Replace with your frontend URL
+  origin: 'https://studiomercy.neocities.org/', // Replace with your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 });
 
 // Routes
-app.use('/api/blogs', allBlogs);
+app.use('https://studiomercy-api.onrender.com/api/blogs', allBlogs);
 
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://studioMercy:51214722@studiomercy.ghbxl4m.mongodb.net/?retryWrites=true&w=majority&appName=StudioMercy', {
